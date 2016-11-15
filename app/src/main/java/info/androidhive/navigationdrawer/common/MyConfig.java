@@ -12,11 +12,10 @@ public class MyConfig {
         public static final String REALSE_URL = "http://10.111.6.3";
         public static final String TEST_URL = "http://10.111.7.23:8080";
         public static final String EXTRANET_URL = "http://its.cetc-ss.com:9000";
-        public static final String MA_YINGOU = "http://10.111.21.71:8080";
     }
     public static class URLS {
         private static final String BASE_URL = HTTP_BASE.EXTRANET_URL;
-//        private static final String BASE_URL = HTTP_BASE.MA_YINGOU;
+//        private static final String BASE_URL = HTTP_BASE.TEST_URL;
 
         public static final String loginUrl = BASE_URL + "/login!loginApp.ce";
         public static final String logoutUrl = BASE_URL + "/login!logoutApp.ce";

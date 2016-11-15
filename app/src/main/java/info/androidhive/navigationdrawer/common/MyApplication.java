@@ -60,7 +60,7 @@ public class MyApplication extends Application {
         mRequestQueue = Volley.newRequestQueue(this);
 
         mInstance = this;
-        mInstance.auto_login("wangkai@cetc-ss.com", "1");
+        mInstance.auto_login("lixintong@cetc-ss.com", "1");
     }
 
     public RequestQueue getRequestQueue() {
