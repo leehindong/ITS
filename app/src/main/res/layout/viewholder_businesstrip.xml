@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_approve_result"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:alpha="0.4"
+        android:src="@drawable/unapproved"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/tv_starting_spot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Shang Hai"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/tv_starting_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="2016-10-11"
+                android:textSize="14sp"/>
+            <TextView
+                android:id="@+id/tv_starting_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="上午"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_traffic_tool"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_marginTop="-3dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/car"/>
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/tv_destination"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Shang Hai"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/tv_ending_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="2016-10-11"
+                android:textSize="14sp"/>
+            <TextView
+                android:id="@+id/tv_ending_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="上午"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

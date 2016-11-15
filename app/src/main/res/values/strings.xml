@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Navigation Drawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">我的任务</string>
+    <string name="nav_photos">商机管理</string>
+    <string name="nav_movies">出差管理</string>
+    <string name="nav_notifications">休假管理</string>
+    <string name="nav_settings">设置</string>
+    <string name="nav_about_us">关于我们</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>我的任务</item>
+        <item>商机管理</item>
+        <item>出差管理</item>
+        <item>休假管理</item>
+        <item>设置</item>
+    </string-array>
+
+    <string name="activity_title_about_us">关于我们</string>
+    <string name="activity_title_privacy_policy">隐私条款</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="privacy_policy">隐私条款</string>
+</resources>
